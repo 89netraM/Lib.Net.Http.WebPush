@@ -1,5 +1,4 @@
-﻿#if NET451 || NET461 || NETSTANDARD2_0
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
 using System.Security.Cryptography;
@@ -84,4 +83,3 @@ namespace Lib.Net.Http.WebPush.Internals
         }
     }
 }
-#endif

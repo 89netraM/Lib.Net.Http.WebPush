@@ -1,5 +1,4 @@
-﻿#if NET451 || NET461 || NETSTANDARD2_0
-using System;
+﻿using System;
 using System.IO;
 using System.Security.Cryptography;
 using Org.BouncyCastle.Asn1;
@@ -75,4 +74,3 @@ namespace Lib.Net.Http.WebPush.Internals
         }
     }
 }
-#endif
