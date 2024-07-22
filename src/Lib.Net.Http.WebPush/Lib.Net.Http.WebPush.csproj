@@ -4,7 +4,7 @@
     <Copyright>Copyright © 2018 - 2024 Tomasz Pęczek</Copyright>
     <VersionPrefix>3.2.1</VersionPrefix>
     <Authors>Tomasz Pęczek</Authors>
-    <TargetFrameworks>net451;net461;netstandard2.0;net5.0;net6.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AssemblyTitle>Lib.Net.Http.WebPush</AssemblyTitle>
     <AssemblyName>Lib.Net.Http.WebPush</AssemblyName>
     <PackageId>Lib.Net.Http.WebPush</PackageId>
@@ -31,7 +31,7 @@
     <PackageReference Include="Portable.BouncyCastle" Version="1.8.1.3" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Lib.Net.Http.EncryptedContentEncoding" Version="2.1.0" />
+    <ProjectReference Include="..\..\..\Lib.Net.Http.EncryptedContentEncoding\src\Lib.Net.Http.EncryptedContentEncoding\Lib.Net.Http.EncryptedContentEncoding.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1" PrivateAssets="All" />
